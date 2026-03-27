@@ -1,5 +1,5 @@
 # What’s changed:
-This fork updates the extension to support the new Microsoft Teams web domain `https://teams.cloud.microsoft/*`. The original version only matched `teams.live.com` and `teams.microsoft.com`, so it did not run on the new Teams URL and presence would still go “Away”.  
+This fork updates the extension to support the new Microsoft Teams web domain `https://teams.cloud.microsoft`. The original version only matched `teams.live.com` and `teams.microsoft.com`, so it did not run on the new Teams URL and presence would still go “Away”.  
   
 Notes:
 - No behavior changes other than adding the new host match.  
