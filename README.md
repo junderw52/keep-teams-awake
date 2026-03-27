@@ -1,3 +1,11 @@
+# What’s changed:
+This fork updates the extension to support the new Microsoft Teams web domain `https://teams.cloud.microsoft/*`. The original version only matched `teams.live.com` and `teams.microsoft.com`, so it did not run on the new Teams URL and presence would still go “Away”.  
+  
+Notes:
+- No behavior changes other than adding the new host match.  
+- Tested with Teams PWA and web client in Chrome; extension now keeps status active as expected on `teams.cloud.microsoft`.
+
+
 # Keep Teams Awake
 
 Keep Teams Awake is a very simple, barebones "mouse jiggler" browser extension for Microsoft Teams.
