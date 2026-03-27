@@ -36,7 +36,7 @@ Also, since they aren't real mouse movement events, it will work even if Teams i
 
 ### Direct Download
 
-Download the [latest release](https://github.com/mcarr823/keep-teams-awake/releases/latest) from GitHub.
+Download the [latest release](https://github.com/junderw52/keep-teams-awake/releases/latest) from GitHub.
 
 For Firefox, download the firefox.xpi file. Right-click on the downloaded file and choose to open it with Firefox.
 
