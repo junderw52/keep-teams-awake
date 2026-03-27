@@ -4,6 +4,7 @@ This fork updates the extension to support the new Microsoft Teams web domain `h
 Notes:
 - No behavior changes other than adding the new host match.  
 - Tested with Teams PWA and web client in Chrome; extension now keeps status active as expected on `teams.cloud.microsoft`.
+- This fork currently targets Google Chrome / Chromium only. The original extension also shipped a Firefox .xpi, but that is not maintained here.
 
 
 # Keep Teams Awake
@@ -38,9 +39,7 @@ Also, since they aren't real mouse movement events, it will work even if Teams i
 
 Download the [latest release](https://github.com/junderw52/keep-teams-awake/releases/latest) from GitHub.
 
-For Firefox, download the firefox.xpi file. Right-click on the downloaded file and choose to open it with Firefox.
-
-For Chrome, download the chrome.zip file, then go to the Chrome extensions page by either:
+Download the chrome.zip file, then go to the Chrome extensions page by either:
 
 - entering chrome://extensions in your address bar
 - clicking on the Extensions icon to the right side of your address bar and clicking on Manage Extensions, or 
@@ -52,9 +51,7 @@ Then drag and drop the chrome.zip file onto the web page to install it.
 
 ### From Source
 
-* Firefox does not support this.
-
-For Chrome, follow the steps above to enable Developer Mode and go to the Manage Extensions page.
+Follow the steps above to enable Developer Mode and go to the Manage Extensions page.
 
 Clone this repository, or download the latest source code zip and extract it.
 
